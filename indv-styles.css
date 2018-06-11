@@ -12,7 +12,7 @@ body {
     align-items: center;
 
 text-align: center;
-    background-image: url(https://blog.bufferapp.com/wp-content/uploads/2015/03/adjust-tie.jpeg);
+    background-image: url(https://images.pexels.com/photos/175687/pexels-photo-175687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -49,21 +49,3 @@ text-align: center;
 color: black;
 }
 
-/* tie page images*/
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
