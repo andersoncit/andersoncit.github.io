@@ -71,7 +71,7 @@ body {
  div {
             width: auto;
             height: auto;
-            border: solid thin;
+         
             font-size: 18px;
             float: right;
         }
@@ -155,6 +155,6 @@ body {
             border: solid thin;
             font-size: 18px;
             float: left;
-     left: 100%;  
+      
     
 }
