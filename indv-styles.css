@@ -6,13 +6,13 @@ body {
 .hero {
     width: 100vw;
     height: 100vh;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 
-text-align: center;
-    background-image: url(https://images.pexels.com/photos/175687/pexels-photo-175687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    text-align: center;
+    background-image: url("../andersoncit.github.io/pictures/sweater.jpeg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,32 +20,141 @@ text-align: center;
 
 }
 
-.hero h1{
+.hero h1 {
     font-size: 5em;
     margin-top: 0;
     margin-bottom: 0.5em;
- 
+
 }
 
 .hero .btn {
     display: block;
     width: 200px;
-   
+
     padding: 1em;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-  
+
     color: black;
     text-decoration: none;
     font-size: 1.5em;
-    
+
     border: 3px solid black;
     border-radius: 20px;
 }
 
-#firstheading{
+#firstheading {
     font-family: 'Julius Sans One', sans-serif;
-color: black;
+    color: black;
+
 }
 
+
+#welcome {
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+}
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ div {
+            width: auto;
+            height: auto;
+            border: solid thin;
+            font-size: 18px;
+            float: right;
+        }
+
+#div1 {
+    bottom: 50%;
+    right: auto;
+
+}
+
+#div2 {
+    top: auto;
+    right: auto;
+}
+
+#div3 {
+    top: auto;
+    right: auto;
+}
+
+
+
+
+/*hero for fashion page*/ 
+#herofashion {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background-image: url("pictures/fashion%20tip%202.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+/*writing content for fashion page*/
+ #fashiontitle {
+            width: 150px;
+            height: 100px;
+            border: solid thin;
+            font-size: 18px;
+            position: relative;
+     left: 50%;    
+        }
+
+
+#fashionpara1 {
+          width: 600px;
+            height: 100px;
+            border: solid thin;
+            font-size: 18px;
+            float: left;
+     left: 100%;  
+    
+}
