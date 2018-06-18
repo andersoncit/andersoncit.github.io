@@ -262,3 +262,26 @@ body {
 
 }
 
+
+
+
+
+
+/*hero for grooming page*/ 
+#herogrooming {
+    width: 100vw;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+
+    text-align: center;
+    background-image: url("pictures/red%20suit.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
