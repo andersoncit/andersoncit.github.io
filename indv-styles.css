@@ -51,18 +51,14 @@ body {
 }
 
 
-#welcome {
+#welcometext {
     font-family: 'Julius Sans One', sans-serif;
     color: black;
+
+margin-left: 10%;
+    margin-right: 10%;
 }
 
-#welcome1{
-    font-family: 'Julius Sans One', sans-serif;
-    color: black;
-}
-#firstwelcome{
-    font-family: 'Julius Sans One', sans-serif;
-    color: black;
 
 margin-left: auto; margin-right: auto;;
 
@@ -198,9 +194,10 @@ body {
         }
 
 #div1 {
-    bottom: 50%;
-margin-left: 100%;
-    margin-right: 0;
+    margin-top: -4%;
+    float: left;
+    width: 35%;
+    margin-left: 15%;
 }
 
 #div2 {
@@ -300,12 +297,13 @@ margin-left: 100%;
 
 
 /*introduction pic*/
-#meandkenz {display: block; margin-left: auto; margin-right: auto; width: 40%; padding-top: 10%; 
+#meandkenz {display: block; margin-left: auto; margin-right: auto; padding-top: 10%; float: left; margin-top: 5%; height: 500p 
 
 }
 
 /*intoduction header*/
-#header {margin: auto; width: 50%; padding: 30px;}
+#header {margin: auto; width: 50%; padding: 30px; margin-bottom: 5%;}
 
-/*introduction para1*/
-#div1 {display: inline-block; float: right; width: 600px; padding: 10px; padding-right: 20%;}
+/* introduction pics*/
+#mainpics {margin-left: 10%; margin-right: 10%;}
+
