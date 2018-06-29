@@ -56,7 +56,18 @@ body {
     color: black;
 }
 
+#welcome1{
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+}
+#firstwelcome{
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
 
+margin-left: auto; margin-right: auto;;
+
+
+}
 
 
 body {
@@ -188,8 +199,8 @@ body {
 
 #div1 {
     bottom: 50%;
-    right: auto;
-
+margin-left: 100%;
+    margin-right: 0;
 }
 
 #div2 {
@@ -285,3 +296,15 @@ body {
     background-attachment: fixed;
 
 }
+
+
+/*introduction pic*/
+#meandkenz {display: block; margin-left: auto; margin-right: auto; width: 40%; padding-top: 10%; 
+
+}
+
+/*intoduction header*/
+#header {margin: auto; width: 50%; padding: 30px;}
+
+/*introduction para1*/
+#div1 {display: inline-block; float: right; width: 600px; padding: 10px; padding-right: 20%;}
