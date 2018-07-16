@@ -86,9 +86,9 @@ body {
   position: absolute;
   left: 8%;
   top: 25%;
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
+  transform:  rotate(5deg);
+  transform: rotate(5deg);
+  transform: rotate(5deg);
   transform: rotate(5deg); 
   background-color: #000;
   border-bottom-left-radius: 35%;
@@ -100,9 +100,9 @@ body {
   position: absolute;
   left: 6%;
   top: 40%;
-  -webkit-transform: rotate(80deg);
-  -moz-transform: rotate(80deg);
-  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+  transform: rotate(80deg);
+  transform: rotate(80deg);
   transform: rotate(80deg); 
   background-color: #000;
 }
@@ -114,9 +114,9 @@ body {
   position: absolute;
   left: 45%;
   top: -280%;
-  -webkit-transform: rotate(-80deg);
-  -moz-transform: rotate(-80deg);
-  -ms-transform: rotate(-80deg);
+  transform: rotate(-80deg);
+  transform: rotate(-80deg);
+  transform: rotate(-80deg);
   transform: rotate(-80deg); 
   background-color: inherit;
 }
@@ -129,9 +129,9 @@ body {
   left: 59%;
   top: -670%;
   background-color: inherit;
-  -webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  transform: rotate(40deg);
+  transform: rotate(40deg);
   transform: rotate(40deg); 
   border-top-left-radius: 50%;
   border-bottom-left-radius: 25%;
