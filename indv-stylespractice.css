@@ -267,7 +267,6 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-bottom: 5%;
 
 }
 
@@ -331,33 +330,4 @@ margin-bottom: 5%;
     margin-bottom: 5%;
     margin-left: 15%;
     margin-right: 15%;
-}
-
-.coolFont{
-      font-family: 'Julius Sans One', sans-serif;
-    color: black;
-    @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
-}
-
-/*facial hair pictures*/
-#facial{
-    margin-right: 25%;
-    margin-left: 25%;
-}
-
-#divbyu{
-    margin-left: 25%;
-    margin-right: 2%;
-}
-
-#inspired{
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-#inspired2{
-    margin-left: 15%;
-    margin-right: 6%;
-  
-    position: relative;
 }

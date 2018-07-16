@@ -2,20 +2,17 @@
 <html lang="en-us">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" 
-
->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>index.html</title>
     <link rel="stylesheet" href="indv-styles.css">
 </head>
 
 <body>
 
-    <section  class="hero">
-        <div  class="hero-inner">
+    <section class="hero">
+        <div class="hero-inner">
             <style>
                 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
-
             </style>
             <h1 id="firstheading">Anderties</h1>
             <h2>Refine yourself</h2>
@@ -26,7 +23,7 @@
 
 
 
- 
+
     <style>
         /* CSS The navigation bar */
 
@@ -38,7 +35,7 @@
             /* Position the navbar at the top of the page */
             width: 100%;
             /* Full width */
-        padding-bottom: 10px;
+            padding-bottom: 10px;
             padding-right: 35px;
         }
 
@@ -59,7 +56,6 @@
             background: #ddd;
             color: black;
         }
-
     </style>
 
 
@@ -69,57 +65,118 @@
 
     <div class="navbar">
         <div class="icon-cart" style="clear: right; float: right" id="cart">
-                    <a href="../andersoncit.github.io/shopping%20cart.html"></a> 
+            <a href="../andersoncit.github.io/shopping%20cart.html"></a>
 
-    <div class="cart-line-1" style="background-color: black"></div>
-    <div class="cart-line-2" style="background-color: black"></div>
-    <div class="cart-line-3" style="background-color: black"></div>
-    <div class="cart-wheel" style="background-color: black"></div>
-  </div>
+            <div class="cart-line-1" style="background-color: black"></div>
+            <div class="cart-line-2" style="background-color: black"></div>
+            <div class="cart-line-3" style="background-color: black"></div>
+            <div class="cart-wheel" style="background-color: black"></div>
+        </div>
         <a href="../andersoncit.github.io/grooming.html"><b>Grooming</b></a>
         <a href="../andersoncit.github.io/solution.html"><b>Solution</b></a>
         <a href="../andersoncit.github.io/fashion.html"><b>Fashion</b></a>
         <a href="../andersoncit.github.io/introduction.html"><b>Introduction</b></a>
         <a href="cit230-links.html"><b>Cit230 links</b></a>
         <a href="index.html"><b>Home</b></a>
-    
-    
+
+
     </div>
 
     <div class="main" id="welcometext">
         <br>
-    <style>
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
-   .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
- 
- </style>
-       
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+            }
+        </style>
+
         <h1>Welcome<strong></strong></h1>
-        <p> <strong>Welcome to the new look of ties. Have you ever looked at ties either online or at the store but could never quite find the one that stood out to you? Anderties not only equips you with the freshest and classiest ties, but we get you going with the best looking ties before they start to get too trendy. Please enjoy this time to picture yourself wearing these ties and choose your favorites!</strong></p>
+        <p> <strong>Welcome to the new look of ties. Have you ever looked at ties either online or at the store but could never quite find the one that stood out to you? Anderties not only equips you with the freshest and classiest ties, but we get you going with the best looking ties before they start to get too trendy. Please enjoy this time to picture yourself wearing these ties and choose your favorites!
    
-        <p id="welcome1"> <strong>Just take a look at these men below who have transformed their lives by going with Anderties</strong></p>    
+        Just take a look at these men below who have transformed their lives by going with Anderties</strong></p>
     </div>
 
-        
-        <div class="row">
-      <div class="column">
-         <div id="mainpics"> <img src="pictures/blue%20knit.jpg" alt="knit">
-    <img src="pictures/coffee.jpeg" width="800" alt="coffee">
-    <img src="pictures/cool%20knit%20tie.jpg" alt="cool">
-    <img src="pictures/floral.jpg" alt="floral">
-    <img src="pictures/rooftop.jpg" alt="roof">
-    <img src="pictures/newspaper.jpg" alt="news">
-    <img src="pictures/guy%20on%20laptop.jpg" alt="laptop">
-            </div>
-            </div>
 
+
+
+
+
+
+
+    <style>
+        .center {
+           
+            margin-right: 24%;
+            width: 50%;
+            border: 3px solid black;
+            padding: 10px;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+        position: relative;
+          
+        }
+
+       
+    </style>
+
+    <body>
+
+
+        <div class="center">
+            <div class="container">
+                <img src="pictures/coffee.jpeg" class="mySlides" alt="coffee">
+                <img class="mySlides" src="pictures/cool%20knit%20tie.jpg" alt="cool">
+                <img class="mySlides" src="pictures/floral.jpg" alt="floral">
+                <img class="mySlides" src="pictures/rooftop.jpg" alt="roof">
+                <img class="mySlides" src="pictures/newspaper.jpg" alt="news">
+                <img class="mySlides" src="pictures/guy%20on%20laptop.jpg" alt="laptop">
+            </div>
+        </div>
+
+ <div> <button id="left" class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button id="right" class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
     </div>
 
-</body>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                };
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+        </script>
+
+
+        </div>
+
+    </body>
 
 </html>
