@@ -1,37 +1,35 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
-<head>
-<meta charset="utf-8">
-<title>Fun Random Programs</title>
-<script>
-"use strict";
-/* Input the Starting and Ending miles on the odometer
-* Processing: 
-*	1. Subtract Ending miles, by starting miles
-*		Divide miles by gallons used.
-*	output: Miles per Gallon		
-*/
-
-function drivenMPG() {
-// get the total number of boxes and boxes per stack from the under.
-var milesStart = parseFloat(document.getElementById('startingO').value);
-var milesEnd = parseFloat(document.getElementById('endingO').value);
-var gallonsUsed = parseFloat(document.getElementById('gallonsU').value);
-//compute the miles driven.
-var milesD = (milesEnd - milesStart) / gallonsUsed;
-//display miles per gallon
-document.getElementById('output').innerHTML = milesD;
-
-}
-
-</script>
-</head>
-
+<!DOCTYPE html>
+<html>
 <body>
-Starting Odometer<input type="text" id="startingO"><br>
-Ending Odometer<input type="text" id="endingO"><br>
-Gallons Used<input type="text" id="gallonsU"><br>
-<button type="button" onclick="drivenMPG()">Calculate MPG</button>
-<div id="output"></div>
+
+<h2>Welcome to Anderties</h2>
+
+<p id="demo">Watch this magic happen.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Check out the new ties!"'>Click Me!</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What does wearing Anderties do?</h2>
+
+<p id="demo">Makes your fashion game this big.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="this.innerHTML=Date()">Losing track of the time?</button>
+
 </body>
 </html>
